@@ -1,0 +1,17 @@
+.ResultsList {
+  display: flex;
+  flex-wrap: wrap;
+  &-error {
+    padding: 20px;
+  }
+
+  &-welcome {
+    background-image: url(" https://img.etimg.com/thumb/msid-63745142,width-643,imgsize-22656,resizemode-4/apple-denies-rumoured-plans-to-kill-itunes-music-platform-will-live-on.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+}

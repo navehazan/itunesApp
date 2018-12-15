@@ -1,0 +1,29 @@
+.ResultsListItem {
+  width: 15%;
+  padding: 20px 40px;
+  padding-right: 0;
+  .link {
+    color: gray;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  &-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ResultsListItem {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ResultsListItem {
+    width: 30%;
+  }
+}
